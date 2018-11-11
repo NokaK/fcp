@@ -1,0 +1,69 @@
+body{
+	font-family: 'questaregular';
+}
+.bg1, .bg2, .bg3, .bg4, .bg5{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+}
+.carousel-control-next, .carousel-control-prev{
+	opacity: 1;
+	width:8%;
+}
+.carousel-indicators li{
+	border-radius: 18px;
+	width: 18px;
+	height: 18px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+.carousel-control-prev{
+	left: 0;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+}
+.carousel-control-next {
+	right: 0;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+}
+.logo{
+	max-width: 450px;
+	width: 100%;
+}
+#text-section p{
+	font-size: 26px;
+}
+footer{
+	background-color: #3a464f;
+	font-size:16px;
+}
+footer  span {
+	color: #3e848a;
+}
+footer .footer-right-text {
+	width: 40%;
+}
+@media  (max-width: 770px){
+	#text-section p{
+		text-align: justify;
+	}
+	footer .container-fluid div{
+		flex-wrap: wrap;
+	}
+	footer .footer-right-text{
+		width: 100%;
+	}
+	.container {
+		padding: 0 3rem ;
+	}
+}
+/*@media(max-width: 480px){
+	footer,.container {
+		padding: 0 2rem ;
+	}
+}*/
